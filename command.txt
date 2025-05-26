@@ -1,0 +1,25 @@
+python -m venv myenv
+myenv\Scripts\activate
+pip install dvc  
+
+git init
+dvc init
+git add .
+git status
+<<<<<<< HEAD
+git commit -m "again" 
+git log
+git pull origin master
+git push origin master 
+
+first untrack this data file by git.ya to detlete kro Pehle then add then commit => git se data untrack karwao then dvc se data ko add karwao
+dvc add data1.csv
+ 
+=======
+git log
+git commit -m "first commit" 
+
+
+git remote add origin https://github.com/anujiitm2004/DVC.git
+>>>>>>> b1df5106d252857b7f723bf6ab5cfefbedaf7c23
+
